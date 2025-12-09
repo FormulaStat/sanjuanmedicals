@@ -1,0 +1,187 @@
+/* Main CSS for San Juan Jadsac Medicals Website */
+
+/* ---------- GLOBAL STYLES ---------- */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 8%;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+
+/* ---------- HEADER ---------- */
+header {
+    text-align: center;
+    padding: 40px 10px;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+header img {
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+header .slogan {
+    font-size: 18px;
+    font-style: italic;
+    color: #0087b6;
+}
+
+
+/* ---------- HERO SECTION ---------- */
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background: #eaf6fb;
+    padding: 80px 8%;
+}
+
+#hero .hero-content {
+    width: 50%;
+}
+
+#hero h2 {
+    font-size: 42px;
+    color: #005f7f;
+}
+
+#hero p {
+    font-size: 18px;
+    margin: 15px 0 30px;
+}
+
+.btn-hero {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #0098d8;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn-hero:hover {
+    background: #007bb0;
+}
+
+#hero .hero-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/* ---------- EMERGENCY HOTLINE ---------- */
+#emergency {
+    text-align: center;
+    background: #ffffff;
+    border-top: 4px solid #d93535;
+    border-bottom: 4px solid #d93535;
+    padding: 50px 10px;
+}
+
+#emergency .hotline {
+    font-size: 34px;
+    color: #d12121;
+    font-weight: bold;
+}
+
+
+/* ---------- QUICK LINKS ---------- */
+#quick-links {
+    background: #ffffff;
+    text-align: center;
+}
+
+#quick-links .links-container {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.quick-link {
+    background: #007bb0;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.quick-link:hover {
+    background: #005f7f;
+}
+
+
+/* ---------- MISSION & VISION ---------- */
+#mission-vision {
+    background: #f1fbff;
+}
+
+#mission-vision .mv-container {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+#mission-vision .mission,
+#mission-vision .vision {
+    width: 50%;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+#mission-vision h3 {
+    color: #006b8e;
+}
+
+
+/* ---------- TESTIMONIALS ---------- */
+#testimonials .testimonial-list {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.testimonial {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    width: 33%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.testimonial .name {
+    font-weight: bold;
+    margin-top: 15px;
+    color: #005f7f;
+}
+
+
+/* ---------- FOOTER ---------- */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #005f7f;
+    color: #ffffff;
+    margin-top: 40px;
+}
